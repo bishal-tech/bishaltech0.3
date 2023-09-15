@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;600;800&display=swap');
+
+html,
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+/* custom classes is here  */
+
+a {
+    color: #000;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    /* font-weight: 800; */
+    letter-spacing: 3px;
+}
+
+.navbar-nav .nav-item {
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+
+.nav-item a {
+    color: #000;
+}
