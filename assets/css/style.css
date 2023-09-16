@@ -60,6 +60,16 @@ h3 {
 }
 
 /* INtro section start here  */
+.particles-js {
+    position: relative;
+}
+
+.particles-js-canvas-el {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .intro-sec h1,
 .intro-sec h2 {
     font-weight: 800;
@@ -160,6 +170,7 @@ h3 {
     width: 18rem;
     height: 18rem;
 }
+
 .backend {
     width: 30rem;
     height: 30rem;

@@ -13,7 +13,7 @@
 
 <body>
     <!-- Header section starts here  -->
-    <header id="header">
+    <header class="">
         <nav class="navbar navbar-expand-lg ">
             <div class="container">
                 <a class="navbar-brand" href="#">
@@ -50,8 +50,8 @@
     </header>
 
     <!-- Intro section start here  -->
-    <section>
-        <div class="container bg-light">
+    <section id="particles-js">
+        <div class="container">
             <!-- Intro section starts here  -->
             <div class="full-container ">
                 <div class="intro-sec">
@@ -64,7 +64,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
 
@@ -179,7 +178,7 @@
     <!-- Technology section start here  -->
     <section>
         <div class="container ">
-            <div class="full-container bg-light">
+            <div class="full-container">
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
 
@@ -226,18 +225,24 @@
                         <h2>Send your messge</h2>
                         <div class="contact-form" style="max-width: 400px;">
                             <form action="" method="post">
-                                <div class="from-group">
+                                <div class="from-group mb-4">
                                     <label for="">Name</label>
                                     <input class="form-control" type="text" name="" id="">
                                 </div>
-                                <div class="from-group">
+                                <div class="from-group mb-4">
                                     <label for="">Subject</label>
-
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected disabled>Choose One</option>
+                                        <option value="1">For Remote Job Operturenity </option>
+                                        <option value="2">For Freelance Work</option>
+                                        <option value="3">Other</option>
+                                    </select>
                                 </div>
-                                <div class="from-group">
-                                    <label for="">Subject</label>
+                                <div class="from-group mb-4">
+                                    <label for="">Message</label>
                                     <textarea class="form-control" name="" id="" cols="" rows="3"></textarea>
                                 </div>
+                                <button class="btn btn-secondary" type="submit">Send Now</button>
                             </form>
                         </div>
 
@@ -245,16 +250,50 @@
                     <div class="col-md-4 col-sm-12">
 
                         <div class="d-flex justify-content-center flex-column h-100">
+                            <h2 class="text-center">My social Handels</h2>
+                            <div class="d-flex gap-5 justify-content-center">
+                                <a href="#" target="_blank">
+                                    <h3>Facebook</h3>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <h3>Instagram</h3>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <h3>Youtube</h3>
+                                </a>
+                            </div>
+                            <h2 class="text-center mt-5">Extra Activity</h2>
+                            <div class="d-flex gap-5 justify-content-center">
+                                <a href="#" target="_blank">
+                                    <h3>Video Production</h3>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <h3>Bike Riding </h3>
+                                </a>
+                            </div>
+                            <h2 class="text-center mt-5">Call Me At</h2>
+                            <div class="text-center">
+                                <a href="#" target="_blank">
+                                    <h3>82-50-96-81-95</h3>
+                                </a>
+                            </div>
+
 
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <footer class="text-center bg-dark p-4 text-white">
+        <p class="m-0">This site desinged by ME . All copyright reserverd @2023</p>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/function.js"></script>
 </body>
