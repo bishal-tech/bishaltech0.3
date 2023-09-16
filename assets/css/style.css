@@ -66,7 +66,7 @@ h3 {
 
 .particles-js-canvas-el {
     position: absolute;
-    top: 0;
+    top: 100px;
     left: 0;
 }
 
