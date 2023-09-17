@@ -1,3 +1,14 @@
+// text change effect is here
+const textElement = document.getElementById("profile");
+const texts = ["Designer", "Front-End Developer", "Educator", "Content Creator"];
+let textIndex = 0;
+function changeText() {
+    textElement.textContent = texts[textIndex];
+    textIndex = (textIndex + 1) % texts.length;
+}
+changeText();
+setInterval(changeText, 3000);
+
 /* ---- particles.js config ---- */
 
 particlesJS("particles-js", {

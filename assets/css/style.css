@@ -23,6 +23,13 @@ h2 {
     font-size: 2vw;
     letter-spacing: 3px;
     font-weight: 800;
+    color: transparent;
+    background-image: url('https://images.unsplash.com/photo-1497250681960-ef046c08a56e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGNvbG9yZnVsJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60');
+
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 h3 {
@@ -73,6 +80,15 @@ h3 {
 .intro-sec h1,
 .intro-sec h2 {
     font-weight: 800;
+    /* -webkit-text-stroke: 5px black; */
+    color: transparent;
+    background-image: url('https://images.unsplash.com/photo-1497250681960-ef046c08a56e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGNvbG9yZnVsJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60');
+
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* transition: all ease 0.4s; */
 }
 
 .intro-sec h1 {
@@ -177,6 +193,13 @@ h3 {
 }
 
 
+
+/* footer styel is here  */
+footer {
+    /* background-image: url('https://images.unsplash.com/photo-1497250681960-ef046c08a56e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGNvbG9yZnVsJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-position: center;
+    background-size: cover; */
+}
 
 /* about page style is here  */
 
