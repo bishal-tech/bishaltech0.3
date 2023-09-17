@@ -5,11 +5,15 @@ body {
     font-family: 'Source Sans 3', sans-serif;
     background-color: #fff;
     color: #000;
+    /* background-color: #000000;
+    color: #ffffff; */
 }
 
 :root {
     --dark: #000;
     --dark-grey: #686868;
+    /* --dark: #ffffff;
+    --dark-grey: #cacaca; */
     --light-gery: #dbdbdb;
     --white: #fff;
 }
