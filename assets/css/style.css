@@ -259,16 +259,40 @@ footer {
 }
 
 
-.table-content h2 {
+
+.table-content .elem {
     font-weight: normal;
     border-bottom: 2px solid var(--dark);
     padding: 50px;
 }
 
-.table-content h2:last-child {
+.table-content .elem:last-child {
     border-bottom: none;
 }
 
-.table-content h2:nth-child(even) {
+.table-content .elem:nth-child(even) {
     text-align: end;
+}
+
+.elem {
+    position: relative;
+}
+
+.elem h2 {
+    position: relative;
+    z-index: 9;
+    /* mix-blend-mode: difference; */
+}
+
+.elem img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    object-position: center;
 }
