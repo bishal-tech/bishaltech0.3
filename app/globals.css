@@ -1,0 +1,299 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;600;800&display=swap');
+
+html,
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  background-color: #fff;
+  color: #000;
+  /* background-color: #000000;
+    color: #ffffff; */
+}
+
+:root {
+  --dark: #000;
+  --dark-grey: #686868;
+  /* --dark: #ffffff;
+    --dark-grey: #cacaca; */
+  --light-gery: #dbdbdb;
+  --white: #fff;
+}
+
+
+a {
+  color: var(--dark);
+}
+
+h2 {
+  font-size: 2vw;
+  letter-spacing: 3px;
+  font-weight: 800;
+  color: transparent;
+  background-image: url('https://images.unsplash.com/photo-1497250681960-ef046c08a56e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGNvbG9yZnVsJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60');
+
+  background-position: center;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+h3 {
+  font-size: 1.5vw;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 30px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--dark);
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* custom classes is here  */
+.full-container {
+  min-height: 100vh;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+/* Nav section start here  */
+.navbar-brand {
+  font-size: 30px;
+  /* font-weight: 800; */
+  letter-spacing: 3px;
+}
+
+.navbar-nav .nav-item {
+  font-size: 25px;
+  font-weight: normal;
+  letter-spacing: 5px;
+}
+
+.nav-item a {
+  color: var(--dark);
+}
+
+/* INtro section start here  */
+.particles-js {
+  position: relative;
+}
+
+.particles-js-canvas-el {
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+
+.intro-sec h1,
+.intro-sec h2 {
+  font-weight: 800;
+  /* -webkit-text-stroke: 5px black; */
+  color: transparent;
+  background-image: url('https://images.unsplash.com/photo-1497250681960-ef046c08a56e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGNvbG9yZnVsJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60');
+
+  background-position: center;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* transition: all ease 0.4s; */
+}
+
+.intro-sec h1 {
+  font-size: 8vw;
+}
+
+.intro-sec h2 {
+  font-size: 6vw;
+  text-align: end;
+  /* margin-top: -25px; */
+}
+
+
+/* Project section start here  */
+
+.project-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.project-img {
+  text-align: center;
+}
+
+.exp-div {
+  border: 2px solid var(--dark);
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.clients-sec {
+  height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 10px;
+}
+
+.clients {
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  margin: 10px;
+  background-color: var(--white);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+.clients img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.clients h3 {
+  margin-bottom: 0px;
+}
+
+.c-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+/* technologies section start here  */
+
+.cust-border {
+  border: 2px solid var(--dark);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.designing {
+  width: 8rem;
+  height: 8rem;
+}
+
+.frontend {
+  width: 18rem;
+  height: 18rem;
+}
+
+.backend {
+  width: 30rem;
+  height: 30rem;
+}
+
+
+
+/* footer styel is here  */
+footer {
+  /* background-image: url('https://images.unsplash.com/photo-1497250681960-ef046c08a56e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGNvbG9yZnVsJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-position: center;
+    background-size: cover; */
+}
+
+/* about page style is here  */
+
+.about-sec {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.about-sec img {
+  width: 55vw;
+  filter: grayscale(1);
+  transition: all linear 0.3s;
+}
+
+.about-sec img:hover {
+  filter: grayscale(0);
+  transition: all linear 0.3s;
+
+}
+
+.about-left,
+.about-right {
+  position: absolute;
+}
+
+.about-left {
+  top: 30%;
+  left: 0;
+}
+
+.about-right {
+  top: 60%;
+  right: 0;
+}
+
+
+
+.table-content .elem {
+  font-weight: normal;
+  border-bottom: 2px solid var(--dark);
+  padding: 50px;
+}
+
+.table-content .elem:last-child {
+  border-bottom: none;
+}
+
+.table-content .elem:nth-child(even) {
+  text-align: end;
+}
+
+.elem {
+  position: relative;
+}
+
+.elem h2 {
+  position: relative;
+  z-index: 9;
+  /* mix-blend-mode: difference; */
+}
+
+.elem img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  object-position: center;
+}
