@@ -8,9 +8,10 @@ const Header = () => {
             <header className="" style={{ zIndex: 99 }}>
                 <nav className="navbar navbar-expand-lg ">
                     <div className="container">
-                        <a className="navbar-brand" href="#">
+                        <Link className="navbar-brand" href="/">
                             WEB APP DEVELOPER
-                        </a>
+                        </Link>
+
                         <button
                             className="navbar-toggler"
                             type="button"
@@ -32,7 +33,7 @@ const Header = () => {
                         >
                             <ul className="navbar-nav gap-3">
                                 <li className="nav-item">
-                                <Link className='nav-link' href="/">Home</Link>
+                                    <Link className='nav-link' href="/">Home</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className='nav-link' href="/About">About</Link>
