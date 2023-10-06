@@ -21,11 +21,11 @@ const Header = () => {
                             aria-expanded="false"
                             aria-label="Toggle navigation"
                         >
-                            <img
+                            {/* <img
                                 className="img-fluid"
                                 src="./assets/img/toggle-icon.png"
                                 alt=""
-                            />
+                            /> */}
                         </button>
                         <div
                             className="collapse navbar-collapse justify-content-end  "
